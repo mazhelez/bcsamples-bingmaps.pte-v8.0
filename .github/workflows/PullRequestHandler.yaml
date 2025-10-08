@@ -118,7 +118,7 @@ jobs:
   CodeAnalysisUpload:
     needs: [ Initialization, Build ]
     if: (!cancelled()) && (needs.Initialization.outputs.trackALAlertsInGitHub == 'True')
-    runs-on: [ ubuntu-latest ]
+    runs-on: [ windows-latest ]
     name: Code Analysis Processing
     steps:
       - name: Checkout
