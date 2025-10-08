@@ -6,6 +6,7 @@ codeunit 74123 "BingMaps Setup"
         BingMapsSettings: Record "BingMaps Settings";
         BingMapsSetup: Codeunit "BingMaps Setup";
         RecRef: RecordRef;
+        UnusedVariable: Text[10];
     begin
         if not BingMapsSettings.WritePermission() then
             exit;
