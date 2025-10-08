@@ -6,6 +6,7 @@
   "githubRunner": "windows-latest",
   "githubRunnerShell": "pwsh",
   "UpdateDependencies": true,
+  "trackALAlertsInGithub": true,
   "ALDoc": {
     "ContinuousDeployment": true,
     "MaxReleases": 0
