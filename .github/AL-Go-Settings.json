@@ -7,6 +7,8 @@
   "githubRunnerShell": "pwsh",
   "UpdateDependencies": true,
   "trackALAlertsInGithub": true,
+  "enableCodeCop": true,
+  "buildModes": ["Default", "Non-default"],
   "ALDoc": {
     "ContinuousDeployment": true,
     "MaxReleases": 0
